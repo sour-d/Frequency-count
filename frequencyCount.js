@@ -42,7 +42,6 @@ const countOccurence = function (element, frequencyCounts) {
     frequencyCounts[position].push(0);
   }
   count = frequencyCounts[position][1];
-  // position += position === -1 ? frequencyCounts.push([]) : 0;
   frequencyCounts[position][1] = count + 1;
   return frequencyCounts;
 };
